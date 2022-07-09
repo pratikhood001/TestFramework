@@ -1,0 +1,5 @@
+pageObjects\LoginPage.class
+baseClass\BaseClass.class
+utilities\XLUtils.class
+utilities\ReadConfig.class
+utilities\Reporting.class

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15122" started-at="2022-07-09T21:52:34 IST" finished-at="2022-07-09T21:52:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15122" started-at="2022-07-09T21:52:34 IST" finished-at="2022-07-09T21:52:49 IST">
+      <class name="testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_LoginDDT_002@5bb21b69]" name="setup" is-config="true" duration-ms="10399" started-at="2022-07-09T21:52:34 IST" finished-at="2022-07-09T21:52:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LoginDDT_002@5bb21b69]" name="loginDDT" duration-ms="3518" started-at="2022-07-09T21:52:45 IST" data-provider="LoginData" finished-at="2022-07-09T21:52:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DDTpratikhood01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DDT8888650622]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_LoginDDT_002@5bb21b69]" name="tearDown" is-config="true" duration-ms="657" started-at="2022-07-09T21:52:48 IST" finished-at="2022-07-09T21:52:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LoginDDT_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
